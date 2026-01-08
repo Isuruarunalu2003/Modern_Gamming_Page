@@ -1,5 +1,7 @@
 # Anime Landing Page
 
+![Banner](banner.png)
+
 A modern, responsive landing page for an anime-themed website, featuring advanced CSS animations and a dark aesthetic.
 
 ## Features
@@ -24,6 +26,21 @@ A modern, responsive landing page for an anime-themed website, featuring advance
 
 - **HTML5**
 - **CSS3** (Flexbox, Grid, Keyframes, View Timeline)
+
+## Code Snippet
+
+Here is a simple example of the JavaScript used for the video slider:
+
+```javascript
+nextButton.addEventListener('click', function(){
+    index += 1
+    video.src = movieList[index];
+
+    if (index === 3){
+        index = -1;
+    } 
+})
+```
 
 ## Setup
 
